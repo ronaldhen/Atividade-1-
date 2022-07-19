@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0144)https://audio4.audima.co/iframe-later-thin-audima.html?skin=thin&statistic=true&clientAlias=&background=undefined&color=undefined&type=undefined -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="./iframe-thin.css" type="text/css">
+<link rel="stylesheet" href="./all.css" type="text/css">
+</head>
+<body>
+<audima-div class="audima-wrap">
+<audima-div class="audima-player">
+<audima-div class="play-pause-btn">
+<button id="playPause" data-method="play" aria-label="Ouvir este conteúdo">
+<i class="fa ppi fa-play"></i>
+</button>
+</audima-div>
+<audima-div class="aud-content">
+<audima-div class="aud-title">
+<span id="beforeMarquee">Ouvir: </span>
+<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="2">WPP adquire Corebiz e acelera verticalização de serviços de e-commerce</marquee>
+</audima-div>
+<audima-div class="timeline_wrap">
+<span class="total_time aud-d-none">100%</span>
+
+<audima-div class="timeline progress-bar-wrapper">
+<audima-div class="full_line"></audima-div>
+<audima-div class="line_preload"></audima-div>
+<audima-div class="line_played" style="width: 9%;">
+<span class="progress-bar-pointer"></span>
+</audima-div>
+</audima-div>
+<span class="current_time">9%</span>
+</audima-div>
+
+
+<audima-div class="hidden-menu-controls aud-d-none" id="controls" style="">
+<button class="aud-btn-control speed_down_btn" data-method="speed_down" aria-label="Reduzir velocidade da voz">
+<i class="fa fa-backward"></i>
+</button>
+<button class="aud-btn-control speed_up_btn" data-method="speed_up" aria-label="Aumentar velocidade da voz">
+<i class="fa fa-forward"></i>
+</button>
+<button class="aud-btn-control bwd_btn" data-method="backward" aria-label="Voltar 5 segundos"></button>
+<button class="aud-btn-control fwd_btn" data-method="forward" aria-label="Avançar 5 segundos"></button>
+</audima-div>
+
+</audima-div>
+
+<audima-div class="sb-content">
+<a href="http://audima.co/" target="_blank" role="button">
+<div class="logo-audima" data-method="logo_local" aria-label="Abrir o site da Audima em uma nova página"></div>
+</a>
+</audima-div>
+
+</audima-div>
+
+</audima-div>
+<script>
+    const urlString = window.location.href;
+    const url = new URL(urlString);
+    const skin = url.searchParams.get('skin');
+    const statistic = url.searchParams.get('statistic');
+</script>
+<script src="./audio-tts-player.js.download"></script>
+<script>AP.init({ skin, statistic })</script>
+
+
+</body></html>
